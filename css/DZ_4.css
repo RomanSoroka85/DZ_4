@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+header {
+  padding: 39px 39px;
+  text-align: right;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ssilki {
+  display: inline-block;
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #0f0101;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: auto;
+  text-align: right;
+  padding: 4px;
+}
+a {
+  color: #1e1111;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+#logo {
+  display: inline-block;
+  font-size: 30px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  color: #555252;
+  cursor: pointer;
+  margin: auto;
+  text-align: left;
+  font-weight: bold;
+  float: left;
+}
+
+a:hover {
+  color: #1abc9c;
+}
+.nav {
+  color: #555252;
+}
+
+.featured_products {
+  font-size: 48px;
+  font-family: "Roboto";
+  color: #515151;
+  text-transform: uppercase;
+  padding: 80px;
+  text-align: center;
+}
+.featured_products::after {
+  display: inline-block;
+  width: 164px;
+  height: 7px;
+  background: #1abc9c;
+  margin: auto;
+  content: "";
+}
+
+div {
+  font-size: 0px;
+}
+
+p {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+.black {
+  padding: 15px;
+  width: 170px;
+  background-color: #0f0101;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.black:hover {
+  background-color: #1abc9c;
+}
+
+.gray {
+  float: right;
+  text-align: center;
+  padding: 15px 15px 15px 11px;
+  width: 29px;
+  background-color: #8c8c8c;
+  color: #ffffff;
+}
+.gray:hover {
+  background-color: #7fd9c7;
+}
+
+.latest_news {
+  font-size: 48px;
+  font-family: "Roboto";
+  color: #515151;
+  text-transform: uppercase;
+  padding: 80px;
+  text-align: center;
+}
+.latest_news::after {
+  display: inline-block;
+  width: 164px;
+  height: 7px;
+  background: #1abc9c;
+  margin: auto;
+  content: "";
+}
+.wraper {
+  width: 1130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+section {
+  display: inline-block;
+  width: 255px;
+  margin: 12px;
+}
+
+.latest {
+  display: inline-block;
+  width: 350px;
+  margin: 8px;
+}
+
+.lorem_ipsum {
+  font-size: 18px;
+  font-family: "OpenSans";
+  color: rgb(85, 82, 82);
+  margin: 17px 0px;
+}
+.lorem_ipsum::after {
+  display: block;
+  width: 164px;
+  height: 3px;
+  background: #1abc9c;
+  margin: 15px 0px;
+  content: "";
+}
+.lorem {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #555252;
+}
+
+.read {
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: #fff;
+  background-color: #1abc9c;
+  border-radius: 3px;
+  cursor: pointer;
+
+  padding: 15px 30px;
+  width: 160px;
+
+  text-align: center;
+  margin: 17px 0px;
+}
+button:hover {
+  color: rgb(7, 7, 7);
+  background-color: rgb(78, 198, 171);
+  box-shadow: 3px;
+}
