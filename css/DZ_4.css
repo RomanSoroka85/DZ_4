@@ -13,7 +13,7 @@ header {
 .ssilki {
   display: inline-block;
   font-size: 14px;
-  font-family: "OpenSans";
+  font-family: "Open Sans", sans-serif;
   color: #0f0101;
   font-weight: bold;
   text-transform: uppercase;
@@ -30,7 +30,7 @@ a {
 #logo {
   display: inline-block;
   font-size: 30px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   color: #555252;
   cursor: pointer;
@@ -46,10 +46,16 @@ a:hover {
 .nav {
   color: #555252;
 }
-
+.wraper {
+  width: 1430px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
 .featured_products {
   font-size: 48px;
-  font-family: "Roboto";
+  display: block;
+  font-family: "Roboto", sans-serif;
   color: #515151;
   text-transform: uppercase;
   padding: 80px;
@@ -64,25 +70,29 @@ a:hover {
   content: "";
 }
 
-div {
-  font-size: 0px;
+.product {
+  width: 255px;
+  margin: 15px 0;
 }
 
+ul {
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
 p {
   display: inline-block;
   font-size: 18px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
-
 .black {
   padding: 15px;
   width: 170px;
   background-color: #0f0101;
   color: #ffffff;
   text-transform: uppercase;
-}
-.black:hover {
-  background-color: #1abc9c;
+  text-align: left;
 }
 
 .gray {
@@ -93,13 +103,22 @@ p {
   background-color: #8c8c8c;
   color: #ffffff;
 }
-.gray:hover {
+
+div {
+  display: inline-block;
+  font-size: 0px;
+}
+
+a.prod:hover .black {
+  background-color: #1abc9c;
+}
+a.prod:hover .gray {
   background-color: #7fd9c7;
 }
 
 .latest_news {
   font-size: 48px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #515151;
   text-transform: uppercase;
   padding: 80px;
@@ -113,26 +132,15 @@ p {
   margin: auto;
   content: "";
 }
-.wraper {
-  width: 1130px;
-  margin-left: auto;
-  margin-right: auto;
-}
-section {
-  display: inline-block;
-  width: 255px;
-  margin: 12px;
-}
-
 .latest {
   display: inline-block;
-  width: 350px;
+  width: 400px;
   margin: 8px;
+  text-align: left;
 }
-
 .lorem_ipsum {
   font-size: 18px;
-  font-family: "OpenSans";
+  font-family: "Open Sans", sans-serif;
   color: rgb(85, 82, 82);
   margin: 17px 0px;
 }
@@ -157,10 +165,10 @@ section {
   background-color: #1abc9c;
   border-radius: 3px;
   cursor: pointer;
-
+  text-decoration: none;
   padding: 15px 30px;
   width: 160px;
-
+  border: none;
   text-align: center;
   margin: 17px 0px;
 }
